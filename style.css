@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .box {
+    background-color: #ebebeb;
+    margin: 10px;
+    text-align: center;
+    padding: 25px; 
+    
+  }
+  
+  body {
+    font-size: 18px;
+    line-height: 32px;
+    color: #777;
+    background-color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .wrapper {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  header{
+      height: 100px
+  }
+
+  nav{
+      height: 100px
+  }
+
+
+  section {
+      position: relative;
+      float: left;
+      height: 300px;
+      width: 60%;
+      text-align: center;
+      padding: 25px
+  }
+
+  aside {
+    float: right;
+    height: 300px;
+    width: 36%;
+    text-align: center;
+    padding: 25px
+ }
+
+ footer {
+     height: 100px;
+     float: right;
+     width: 99%;
+ }
+
+ article {
+     position: absolute;
+     left: calc((100% - 37em) / 2);
+     top: calc((100% - 30em) / 2);
+     width: 95%;
+     height: 70%;
+     margin: auto;
+     margin-top: 25%;
+     background-color: #777777;
+     padding: 1px;
+     color: #ebebeb
+ }
+
+ h1 {
+     position: absolute;
+     font-weight: bold;
+     left: calc((100% - 24em) / 2);
+     top: calc((100% - 5em) / 2);
+ }
+
+ p {
+    position: absolute;
+    left: calc((100% - 36em) / 2);
+    top: calc((100% - -2em) / 2);
+    padding: 10px
+ }
+
+ .skinnybox {
+    background-color: #ebebeb;
+    width: 91%;
+    height: 22%;
+    color: #777;  
+    padding: 15px
+ }
+  
